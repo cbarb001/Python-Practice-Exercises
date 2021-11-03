@@ -5,14 +5,23 @@
 #
 # Extras:
 #
-# Instead of printing the elements one by one,
-# ake a new list that has all the elements less than 5 from this list in it and print out this new list.
-# Write this in one line of Python.
-# Ask the user for a number and return a list that contains only elements
+# 1. Instead of printing the elements one by one,
+# make a new list that has all the elements less than 5 from this list in it and print out this new list.
+# 2. Write this in one line of Python.
+# 3. Ask the user for a number and return a list that contains only elements
 # from the original list a that are smaller than that number given by the user.
 
+# MAIN PROBLEM
+
 a = [10, 50, 82, 1, 5, 92, 4, 2, 7]
+new_list = []
 
 for number in a:
     if number < 5:
         print(number)
+        new_list.append(number)
+
+# Extra 1
+print(new_list)
+
+
