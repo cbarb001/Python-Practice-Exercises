@@ -7,7 +7,7 @@
 # Print out that many copies of the previous message on separate lines.
 # (Hint: the string "\n is the same as pressing the ENTER button)
 
-#Main Project
+# Main Project
 name = input("What is your name? ")
 age = int(input("How old are you? "))
 
