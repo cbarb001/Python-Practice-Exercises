@@ -7,9 +7,26 @@
 # Print out that many copies of the previous message on separate lines.
 # (Hint: the string "\n is the same as pressing the ENTER button)
 
+#Main Project
 name = input("What is your name? ")
 age = int(input("How old are you? "))
 
 until_one_hundred = int(100) - age
 
-print("Hi {0}, you will be 100 years old in {1} years.".format(name, until_one_hundred))
+message = "Hi {0}, you will be 100 years old in {1} years.".format(name, until_one_hundred)
+
+print(message)
+
+print("*" * 20)
+
+# Extra 1
+copies_of_message = int(input("How many copies of this message would you like to see? "))
+
+print(message * copies_of_message)
+
+print("*" * 20)
+
+# Extra 2
+for x in range(copies_of_message):
+    print(message)
+
