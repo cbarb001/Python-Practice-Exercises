@@ -24,4 +24,11 @@ for number in a:
 # Extra 1
 print(new_list)
 
+# Extra 3
+new_list = []
+lower_than_number = int(input("Enter your own number to check if there are any numbers that are lower in the list. "))
 
+for number in a:
+    if number < lower_than_number:
+        new_list.append(number)
+print(new_list)
